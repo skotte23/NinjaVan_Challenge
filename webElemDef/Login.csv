@@ -1,0 +1,8 @@
+WebElement Name,Method Name,Criteria String
+UserNameTb,xpath,.//input[@placeholder='User Name']
+PasswordTb,xpath,.//input[@type='password']
+SignInBtn,xpath,//button[text() = 'Sign in']
+ErrMsg,xpath,//*[@id='main-view']/form/div/div/div[2]/div/ul/li[4]/div/div[@class='aw-session-errorMessage ng-binding']
+ProgressBarHidden,xpath,//*[@id='main-view']/form/div/div/div[2]/div/ul/li[3]/div/div[1]/div[@class='aw-session-progress ng-hide']
+ProgressBar,xpath,//*[@id='main-view']/form/div/div/div[2]/div/ul/li[3]/div/div[1]/div[@class='aw-session-progress']
+UserLink,xpath,.//img[@class='aw-avatar-icon aw-avatar-image ng-scope']

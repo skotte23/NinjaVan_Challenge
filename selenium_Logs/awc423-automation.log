@@ -1,0 +1,260 @@
+2023-05-24 20:30:53,217 TRACE util.GlobalVariable            - Start of GlobalVariable getInstance() method
+2023-05-24 20:30:53,217 TRACE util.GlobalVariable            - Start of GlobalVariable()
+2023-05-24 20:30:53,217 TRACE util.GlobalVariable            - Start of private void loadCSVFile()
+2023-05-24 20:30:53,217 TRACE util.SeleniumUtil              - Start of String getProperty( String propertyName, String defaultValue )
+2023-05-24 20:30:53,217 WARN  util.SeleniumUtil              - SeleniumUtil not instantiated yet. Calling SeleniumUtil.getInstance(), which will create the SeleniumUtil instance and initialize it.
+2023-05-24 20:30:53,217 TRACE util.SeleniumUtil              - Start of getInstance() method
+2023-05-24 20:30:53,217 TRACE util.SeleniumUtil              - Start of init() method
+2023-05-24 20:30:53,217 TRACE util.SeleniumUtil              - Start of loadConfigFile()
+2023-05-24 20:30:53,217 INFO  util.SeleniumUtil              - Got CONFIG=C:\Tc_Selenium_Automation\it-slms-selenium-auto\cfg\config.properties from Environment
+2023-05-24 20:30:53,217 INFO  util.SeleniumUtil              - Loaded properties from config file:C:\Tc_Selenium_Automation\it-slms-selenium-auto\cfg\config.properties
+2023-05-24 20:30:53,217 TRACE util.SeleniumUtil              - Start of setBrowserType() method
+2023-05-24 20:30:53,217 TRACE util.SeleniumUtil              - Start of String getProperty( String propertyName, String defaultValue )
+2023-05-24 20:30:53,217 INFO  util.SeleniumUtil              - Got value of: BROSWER_TYPE as: Chrome from Config file
+2023-05-24 20:30:53,217 INFO  util.SeleniumUtil              - BROSWER_TYPE is set to Chrome
+2023-05-24 20:30:53,217 TRACE util.SeleniumUtil              - Start of setImplicitWait() method
+2023-05-24 20:30:53,217 TRACE util.SeleniumUtil              - Start of String getProperty( String propertyName, String defaultValue )
+2023-05-24 20:30:53,217 INFO  util.SeleniumUtil              - Got value of: IMPL_WAIT as: 10 from Config file
+2023-05-24 20:30:53,217 INFO  util.SeleniumUtil              - Implicit Wait is set to 10
+2023-05-24 20:30:53,217 TRACE util.SeleniumUtil              - Start of setTimeOutAndMaxRetry() method
+2023-05-24 20:30:53,217 TRACE util.SeleniumUtil              - Start of String getProperty( String propertyName, String defaultValue )
+2023-05-24 20:30:53,217 INFO  util.SeleniumUtil              - Got value of: TIME_OUT_MED as: 10 from Config file
+2023-05-24 20:30:53,217 INFO  util.SeleniumUtil              - Time Out Medium is set to 10
+2023-05-24 20:30:53,217 TRACE util.SeleniumUtil              - Start of String getProperty( String propertyName, String defaultValue )
+2023-05-24 20:30:53,217 INFO  util.SeleniumUtil              - Got value of: TIME_OUT_LOW as: 5 from Config file
+2023-05-24 20:30:53,217 INFO  util.SeleniumUtil              - Time Out Low is set to 5
+2023-05-24 20:30:53,217 TRACE util.SeleniumUtil              - Start of String getProperty( String propertyName, String defaultValue )
+2023-05-24 20:30:53,217 INFO  util.SeleniumUtil              - Got value of: TIME_OUT_HIGH as: 15 from Config file
+2023-05-24 20:30:53,217 INFO  util.SeleniumUtil              - Time Out High is set to 15
+2023-05-24 20:30:53,217 TRACE util.SeleniumUtil              - Start of String getProperty( String propertyName, String defaultValue )
+2023-05-24 20:30:53,217 INFO  util.SeleniumUtil              - Got value of: MAX_RETRY as: 2 from Config file
+2023-05-24 20:30:53,217 INFO  util.SeleniumUtil              - Maximum Retry is set to 2
+2023-05-24 20:30:53,217 INFO  util.SeleniumUtil              - Implicit Wait of 10seconds
+2023-05-24 20:30:53,217 INFO  util.SeleniumUtil              - Got value of: INPUT_VAR_CSV_FILE as: C:\Tc_Selenium_Automation\it-slms-selenium-auto\cfg\Input_Data.csv from Config file
+2023-05-24 20:30:53,217 INFO  util.GlobalVariable            - Loaded the map with input data from csv file: C:\Tc_Selenium_Automation\it-slms-selenium-auto\cfg\Input_Data.csv
+2023-05-24 20:30:53,217 TRACE stepdefs.core.AirwayBillSteps  - Start of MainWorkAreaStepdef()
+2023-05-24 20:30:53,217 TRACE stepdefs.core.AirwayBillSteps  - public void i_am_on_the_home_page_after_login_as( String stepId, String userId )
+2023-05-24 20:30:53,217 WARN  stepdefs.core.LoginStepDefExt  - ------------------------------------------------------------
+2023-05-24 20:30:53,217 WARN  stepdefs.core.LoginStepDefExt  - *****1: STARTED
+2023-05-24 20:30:53,217 WARN  stepdefs.core.LoginStepDefExt  - ------------------------------------------------------------
+2023-05-24 20:30:53,217 INFO  stepdefs.core.LoginStepDefExt  - 1 on the home page after login as https://dashboard-qa.ninjavan.co/login-v2.
+2023-05-24 20:31:03,331 TRACE stepdefs.core.GlobalNavigationStepdef - Start of GlobalNavigationStepdef()
+2023-05-24 20:31:03,331 TRACE stepdefs.core.OneStepBarStepDef - Start of OneStepBarStepDef()
+2023-05-24 20:31:03,331 TRACE stepdefs.core.OneStepBarStepDef - End of OneStepBarStepDef()
+2023-05-24 20:31:03,331 TRACE stepdefs.core.HomeStepDef      - Start of HomeStepDef()
+2023-05-24 20:31:03,331 TRACE stepdefs.core.HomeStepDef      - End of HomeStepDef()
+2023-05-24 20:31:03,331 TRACE pages.core.BasePage            - Start of BasePage()
+2023-05-24 20:31:03,331 TRACE util.SeleniumUtil              - Start of getInstance() method
+2023-05-24 20:31:03,331 TRACE stepdefs.core.LoginStepDefExt  - Start of LoginStepDefExt()
+2023-05-24 20:31:03,331 TRACE util.GlobalVariable            - Start of GlobalVariable getInstance() method
+2023-05-24 20:31:03,331 TRACE stepdefs.core.MainWorkAreaStepdef - Start of MainWorkAreaStepdef()
+2023-05-24 20:31:03,331 TRACE stepdefs.core.MainWorkAreaStepdef - Start of GlobalHeaderStepdefExt()
+2023-05-24 20:31:03,332 TRACE stepdefs.core.AdvSrchDlgStepDef - Start of AdvSrchDlgStepDef()
+2023-05-24 20:31:03,332 TRACE stepdefs.core.AdvSrchDlgStepDef - End of AdvSrchDlgStepDef()
+2023-05-24 20:31:03,332 TRACE stepdefs.core.DispCmdBarStepDefExt - Start of DispCmdBarStepDefExt()
+2023-05-24 20:31:03,332 TRACE stepdefs.core.PrimaryToolbarPanelStepDef - Start of PrimaryToolbarPanelStepDef()
+2023-05-24 20:31:03,332 TRACE stepdefs.core.PrimaryToolbarPanelStepDef - End of PrimaryToolbarPanelStepDef()
+2023-05-24 20:31:03,332 TRACE stepdefs.core.PrimaryToolbarStepDefExt - Start of PrimaryToolbarStepDefExt()
+2023-05-24 20:31:03,332 TRACE stepdefs.core.PrimaryToolbarStepDefExt - End of PrimaryToolbarStepDefExt()
+2023-05-24 20:31:03,332 TRACE stepdefs.core.ResultsToolbarPanelStepDef - Start of ResultsToolbarPanelStepDef()
+2023-05-24 20:31:03,332 TRACE stepdefs.core.ResultsToolbarPanelStepDef - End of ResultsToolbarPanelStepDef()
+2023-05-24 20:31:03,332 TRACE pages.core.BasePage            - Start of BasePage()
+2023-05-24 20:31:03,332 TRACE util.SeleniumUtil              - Start of getInstance() method
+2023-05-24 20:31:03,332 TRACE stepdefs.core.SummaryViewStepDef - Start of PrimaryToolbarPanelStepDefExt()
+2023-05-24 20:31:03,332 TRACE stepdefs.core.SummaryViewStepDef - End of PrimaryToolbarPanelStepDefExt()
+2023-05-24 20:31:03,332 TRACE pages.core.BasePage            - Start of BasePage()
+2023-05-24 20:31:03,332 TRACE util.SeleniumUtil              - Start of getInstance() method
+2023-05-24 20:31:03,337 TRACE util.GlobalVariable            - Start of GlobalVariable getInstance() method
+2023-05-24 20:31:03,339 TRACE stepdefs.core.WebMailStepDef   - Start of WebMailStepDef()
+2023-05-24 20:31:03,339 TRACE stepdefs.core.TopTabPnlStepDef - Start of TopTabPnlStepDef()
+2023-05-24 20:31:03,342 TRACE pages.core.BasePage            - Start of BasePage()
+2023-05-24 20:31:03,342 TRACE util.SeleniumUtil              - Start of getInstance() method
+2023-05-24 20:31:03,346 TRACE util.GlobalVariable            - Start of GlobalVariable getInstance() method
+2023-05-24 20:31:03,347 TRACE pages.core.BasePage            - Start of BasePage()
+2023-05-24 20:31:03,348 TRACE util.SeleniumUtil              - Start of getInstance() method
+2023-05-24 20:31:03,348 TRACE pages.core.GlobalNavigation    - Start of GlobalNavigation()
+2023-05-24 20:31:03,348 TRACE elems.BaseElem                 - Start of BaseElem()
+2023-05-24 20:31:03,348 TRACE util.WebElemDefReader          - Start of getLocatorObj(String pageName, String webElemIdentifier)
+2023-05-24 20:31:03,348 TRACE util.WebElemDefReader          - Start of List<String> getLocatorList(String pageName, String webIdentifier)
+2023-05-24 20:31:03,348 TRACE util.WebElemDefReader          - Start of getInstance() method
+2023-05-24 20:31:03,348 TRACE util.WebElemDefReader          - Start of initialize() method
+2023-05-24 20:31:03,348 TRACE util.WebElemDefReader          - Start of setWebElemDefDir()
+2023-05-24 20:31:03,348 TRACE util.SeleniumUtil              - Start of String getProperty( String propertyName, String defaultValue )
+2023-05-24 20:31:03,348 INFO  util.SeleniumUtil              - Got value of: WEB_ELEM_DEF_DIR as: C:\Tc_Selenium_Automation\it-slms-selenium-auto\webElemDef from Config file
+2023-05-24 20:31:03,349 TRACE util.WebElemDefReader          - Start of findAllWebElemDefFiles() method
+2023-05-24 20:31:03,353 TRACE util.WebElemDefReader          - Start of processWebElemDefFile(File webElemDefFile, String pageName )
+2023-05-24 20:31:03,355 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,355 INFO  util.WebElemDefReader          - Line:2 Added key: LOGIN.USERNAMETB and value list: xpath,.//input[@placeholder='User Name']
+2023-05-24 20:31:03,355 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,355 INFO  util.WebElemDefReader          - Line:3 Added key: LOGIN.PASSWORDTB and value list: xpath,.//input[@type='password']
+2023-05-24 20:31:03,355 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,355 INFO  util.WebElemDefReader          - Line:4 Added key: LOGIN.SIGNINBTN and value list: xpath,//button[text() = 'Sign in']
+2023-05-24 20:31:03,355 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,355 INFO  util.WebElemDefReader          - Line:5 Added key: LOGIN.ERRMSG and value list: xpath,//*[@id='main-view']/form/div/div/div[2]/div/ul/li[4]/div/div[@class='aw-session-errorMessage ng-binding']
+2023-05-24 20:31:03,355 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,355 INFO  util.WebElemDefReader          - Line:6 Added key: LOGIN.PROGRESSBARHIDDEN and value list: xpath,//*[@id='main-view']/form/div/div/div[2]/div/ul/li[3]/div/div[1]/div[@class='aw-session-progress ng-hide']
+2023-05-24 20:31:03,355 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,355 INFO  util.WebElemDefReader          - Line:7 Added key: LOGIN.PROGRESSBAR and value list: xpath,//*[@id='main-view']/form/div/div/div[2]/div/ul/li[3]/div/div[1]/div[@class='aw-session-progress']
+2023-05-24 20:31:03,355 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,355 INFO  util.WebElemDefReader          - Line:8 Added key: LOGIN.USERLINK and value list: xpath,.//img[@class='aw-avatar-icon aw-avatar-image ng-scope']
+2023-05-24 20:31:03,356 INFO  util.WebElemDefReader          - Processed Web Element Definition File: C:\Tc_Selenium_Automation\it-slms-selenium-auto\webElemDef\Login.csv
+2023-05-24 20:31:03,356 INFO  util.WebElemDefReader          - No. of Lines Processed (excluding skipped)are: 7
+2023-05-24 20:31:03,356 INFO  util.WebElemDefReader          - Locator list not found for pageName: GlobalNavigation and Web element identifier:GlbNavigationRoot in the existing map
+2023-05-24 20:31:03,356 TRACE util.WebElemDefReader          - Start of getWebElemDefFileForPage(String pageName)
+2023-05-24 20:31:03,356 TRACE util.WebElemDefReader          - Start of processWebElemDefFile(File webElemDefFile, String pageName )
+2023-05-24 20:31:03,358 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,358 INFO  util.WebElemDefReader          - Line:2 Added key: GLOBALNAVIGATION.GLBNAVIGATIONROOT and value list: xpath,//div[@class='global-navigation-toolbar aw-flex-column ng-isolate-scope afx-static-size']
+2023-05-24 20:31:03,358 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,358 INFO  util.WebElemDefReader          - Line:3 Added key: GLOBALNAVIGATION.CHANGETHEMEDROPDOWNLIST and value list: xpath,.//ul[@class='aw-widgets-cellListWidget aw-layout-flexColumnContainer']/li[text()='$(REPLACE-01)']
+2023-05-24 20:31:03,359 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,359 INFO  util.WebElemDefReader          - Line:4 Added key: GLOBALNAVIGATION.USERLINK and value list: xpath,.//img[@class='aw-avatar-icon aw-avatar-image ng-scope']
+2023-05-24 20:31:03,359 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,359 INFO  util.WebElemDefReader          - Line:5 Added key: GLOBALNAVIGATION.USERLINKCMD and value list: xpath,//div[@class='aw-commands-showIconLabel aw-commands-commandIconButtonText ng-binding'][normalize-space()='$(REPLACE-01)']
+2023-05-24 20:31:03,359 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,359 INFO  util.WebElemDefReader          - Line:6 Added key: GLOBALNAVIGATION.USERNAME and value list: xpath,.//aw-link[@link-id='avatarPanelUserName']//a
+2023-05-24 20:31:03,359 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,359 INFO  util.WebElemDefReader          - Line:7 Added key: GLOBALNAVIGATION.GROUPLINK and value list: xpath,.//a[@link-id='aw-state-userGroup']
+2023-05-24 20:31:03,359 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,359 INFO  util.WebElemDefReader          - Line:8 Added key: GLOBALNAVIGATION.ROLELINK and value list: xpath,.//a[@link-id='aw-state-userRole']
+2023-05-24 20:31:03,359 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,359 INFO  util.WebElemDefReader          - Line:9 Added key: GLOBALNAVIGATION.REVRULELINK and value list: xpath,.//a[@link-id='aw-state-revRule']
+2023-05-24 20:31:03,359 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,359 INFO  util.WebElemDefReader          - Line:10 Added key: GLOBALNAVIGATION.PROJECTLINK and value list: xpath,.//a[@link-id='aw-state-userProject']
+2023-05-24 20:31:03,359 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,359 INFO  util.WebElemDefReader          - Line:11 Added key: GLOBALNAVIGATION.POPUPOPTLINK and value list: xpath,.//ul[@class='aw-layout-linkWithPopupContainer']/li[contains(text()&COMMA;'$(REPLACE-01)')]| .//ul[@class='aw-layout-linkWithPopupContainer']/li[normalize-space(text())='$(REPLACE-01)']
+2023-05-24 20:31:03,359 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,359 INFO  util.WebElemDefReader          - Line:12 Added key: GLOBALNAVIGATION.LINKVAL and value list: xpath,.//aw-link-with-popup-menu[@class='ng-scope ng-isolate-scope']//aw-Link[contains(@link-id&COMMA;'$(REPLACE-01)')]//a
+2023-05-24 20:31:03,359 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,359 INFO  util.WebElemDefReader          - Line:13 Added key: GLOBALNAVIGATION.POPUPCONTAINER and value list: xpath,.//ul[@class='aw-layout-linkWithPopupContainer']/li
+2023-05-24 20:31:03,359 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,359 INFO  util.WebElemDefReader          - Line:14 Added key: GLOBALNAVIGATION.ATTVALUE and value list: xpath,.//ul[@class='aw-layout-linkWithPopupContainer']/li[contains(text()&COMMA;'$(REPLACE-01)')]
+2023-05-24 20:31:03,359 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,359 INFO  util.WebElemDefReader          - Line:15 Added key: GLOBALNAVIGATION.BTNINGLBLNAVBAR and value list: xpath,//aw-command-bar[@anchor='aw_globalNavigationbar']//button[@button-id='Awp0Go$(REPLACE-01)' and @type='button']
+2023-05-24 20:31:03,359 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,359 INFO  util.WebElemDefReader          - Line:16 Added key: GLOBALNAVIGATION.LOGOUTTEXT and value list: xpath,.//span[text()[contains(.&COMMA;'$(REPLACE-01)')]]
+2023-05-24 20:31:03,359 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,360 INFO  util.WebElemDefReader          - Line:17 Added key: GLOBALNAVIGATION.OPTNINGLBNAVBAR and value list: xpath,.//aw-popup-command-cell[@class='ng-scope']/li[@aria-label='$(REPLACE-01)']
+2023-05-24 20:31:03,360 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,360 INFO  util.WebElemDefReader          - Line:18 Added key: GLOBALNAVIGATION.POPOUTBTN and value list: xpath,.//button[contains(@aria-label&COMMA;'User Properties')]
+2023-05-24 20:31:03,360 INFO  util.WebElemDefReader          - Processed Web Element Definition File: C:\Tc_Selenium_Automation\it-slms-selenium-auto\webElemDef\GlobalNavigation.csv
+2023-05-24 20:31:03,360 INFO  util.WebElemDefReader          - No. of Lines Processed (excluding skipped)are: 17
+2023-05-24 20:31:03,360 WARN  util.WebElemDefReader          - No. of Lines Skipped (excluding header)are: 1
+2023-05-24 20:31:03,360 TRACE util.SeleniumUtil              - Start of getInstance() method
+2023-05-24 20:31:03,361 TRACE elems.BaseElem                 - Start of BaseElem( BaseElem rootElem, String locatorId, String pageName, String nameForLogs )
+2023-05-24 20:31:03,361 TRACE util.SeleniumUtil              - Start of getInstance() method
+2023-05-24 20:31:03,361 TRACE util.WebElemDefReader          - Start of getLocatorObj(String pageName, String webElemIdentifier)
+2023-05-24 20:31:03,361 TRACE util.WebElemDefReader          - Start of List<String> getLocatorList(String pageName, String webIdentifier)
+2023-05-24 20:31:03,361 TRACE elems.BaseElem                 - Start of BaseElem()
+2023-05-24 20:31:03,361 TRACE util.WebElemDefReader          - Start of getLocatorObj(String pageName, String webElemIdentifier)
+2023-05-24 20:31:03,361 TRACE util.WebElemDefReader          - Start of List<String> getLocatorList(String pageName, String webIdentifier)
+2023-05-24 20:31:03,361 TRACE util.SeleniumUtil              - Start of getInstance() method
+2023-05-24 20:31:03,361 TRACE elems.BaseElem                 - Start of BaseElem()
+2023-05-24 20:31:03,361 TRACE util.WebElemDefReader          - Start of getLocatorObj(String pageName, String webElemIdentifier)
+2023-05-24 20:31:03,361 TRACE util.WebElemDefReader          - Start of List<String> getLocatorList(String pageName, String webIdentifier)
+2023-05-24 20:31:03,361 TRACE util.SeleniumUtil              - Start of getInstance() method
+2023-05-24 20:31:03,361 TRACE elems.BaseElem                 - Start of BaseElem()
+2023-05-24 20:31:03,361 TRACE util.WebElemDefReader          - Start of getLocatorObj(String pageName, String webElemIdentifier)
+2023-05-24 20:31:03,361 TRACE util.WebElemDefReader          - Start of List<String> getLocatorList(String pageName, String webIdentifier)
+2023-05-24 20:31:03,361 TRACE util.SeleniumUtil              - Start of getInstance() method
+2023-05-24 20:31:03,361 TRACE elems.BaseElem                 - Start of BaseElem()
+2023-05-24 20:31:03,361 TRACE util.WebElemDefReader          - Start of getLocatorObj(String pageName, String webElemIdentifier)
+2023-05-24 20:31:03,361 TRACE util.WebElemDefReader          - Start of List<String> getLocatorList(String pageName, String webIdentifier)
+2023-05-24 20:31:03,361 TRACE util.SeleniumUtil              - Start of getInstance() method
+2023-05-24 20:31:03,361 TRACE elems.BaseElem                 - Start of BaseElem()
+2023-05-24 20:31:03,361 TRACE util.WebElemDefReader          - Start of getLocatorObj(String pageName, String webElemIdentifier)
+2023-05-24 20:31:03,361 TRACE util.WebElemDefReader          - Start of List<String> getLocatorList(String pageName, String webIdentifier)
+2023-05-24 20:31:03,361 TRACE util.SeleniumUtil              - Start of getInstance() method
+2023-05-24 20:31:03,361 TRACE pages.core.GlobalNavigation    - Start of public String getSyslog()
+2023-05-24 20:31:03,361 TRACE pages.core.GlobalNavigation    - Start of public void clickOnGlbNavCmd( String cmdTitle )
+2023-05-24 20:31:03,361 TRACE util.SeleniumUtil              - Start of getInstance() method
+2023-05-24 20:31:03,361 TRACE elems.ToolbarCmd               - Start of public ToolbarCmd( BaseElem rootObj, String cmdTitle, String pageName, String nameForLogs )
+2023-05-24 20:31:03,361 TRACE util.WebElemDefReader          - Start of getLocatorObj(String pageName, String webElemIdentifier)
+2023-05-24 20:31:03,361 TRACE util.WebElemDefReader          - Start of List<String> getLocatorList(String pageName, String webIdentifier)
+2023-05-24 20:31:03,361 INFO  util.WebElemDefReader          - Locator list not found for pageName: ToolbarCmd and Web element identifier:TBarCmdDef in the existing map
+2023-05-24 20:31:03,362 TRACE util.WebElemDefReader          - Start of getWebElemDefFileForPage(String pageName)
+2023-05-24 20:31:03,362 TRACE util.WebElemDefReader          - Start of processWebElemDefFile(File webElemDefFile, String pageName )
+2023-05-24 20:31:03,363 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,363 INFO  util.WebElemDefReader          - Line:2 Added key: TOOLBARCMD.TBARCMDDEF and value list: xpath,//aw-command[@ng-repeat="command in commandsList | filter:{visible:true} | orderBy: '':reverse | limitTo:commandLimit as visibleCommands"]//button[@aria-label=$(REPLACE-01)] | //button[@title=$(REPLACE-01)]
+2023-05-24 20:31:03,363 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,363 INFO  util.WebElemDefReader          - Line:3 Added key: TOOLBARCMD.TBARCMDPOSDEF and value list: xpath,.//aw-command[@command-id=$(REPLACE-01)]/button
+2023-05-24 20:31:03,363 TRACE util.Util                      - Start of String convertListToString(List <String> inputList, String delimiterStr)
+2023-05-24 20:31:03,363 INFO  util.WebElemDefReader          - Line:4 Added key: TOOLBARCMD.TBARGRPPOPUPCMD and value list: xpath,.//div[@class='aw-popup-cellContentContainer ng-binding'][normalize-space()=$(REPLACE-01)]
+2023-05-24 20:31:03,364 INFO  util.WebElemDefReader          - Processed Web Element Definition File: C:\Tc_Selenium_Automation\it-slms-selenium-auto\webElemDef\ToolbarCmd.csv
+2023-05-24 20:31:03,364 INFO  util.WebElemDefReader          - No. of Lines Processed (excluding skipped)are: 3
+2023-05-24 20:31:03,364 TRACE elems.BaseElem                 - Start of findElem(WebDriver driver, long maxWaitInSec, int maxRetry)
+2023-05-24 20:31:03,364 WARN  elems.BaseElem                 - Failed in Wait.until(presenceOfElementLocated) for web element with name = GlbNav_Cmd_Help
+, But will try again
+2023-05-24 20:31:03,364 TRACE pages.core.BasePage            - Start of takeScreenshot()
+2023-05-24 20:31:03,364 TRACE util.Util                      - Start of getSnapshotDir()
+2023-05-24 20:31:03,364 TRACE util.Util                      - Start of getSnapshotRootDir()
+2023-05-24 20:31:03,364 TRACE util.SeleniumUtil              - Start of String getProperty( String propertyName, String defaultValue )
+2023-05-24 20:31:03,364 INFO  util.SeleniumUtil              - Got value of: SNAPSHOT_ROOT_DIR as: C:\Tc_Selenium_Automation\it-slms-selenium-auto\selenium_Logs\snapshots from Config file
+2023-05-24 20:31:03,365 INFO  util.Util                      - Set Util.mSnapshotRootDir=C:\Tc_Selenium_Automation\it-slms-selenium-auto\selenium_Logs\snapshots
+2023-05-24 20:31:03,373 INFO  util.Util                      - Set Util.mSnapshotDir=C:\Tc_Selenium_Automation\it-slms-selenium-auto\selenium_Logs\snapshots\2023-05-24
+2023-05-24 20:31:03,373 INFO  util.Util                      - Snapshot Directoryr=C:\Tc_Selenium_Automation\it-slms-selenium-auto\selenium_Logs\snapshots\2023-05-24
+2023-05-24 20:31:03,373 TRACE util.Util                      - Start of getSnapshotFileExt()
+2023-05-24 20:31:03,373 TRACE util.SeleniumUtil              - Start of String getProperty( String propertyName, String defaultValue )
+2023-05-24 20:31:03,373 INFO  util.SeleniumUtil              - Got value of: SNAPSHOT_FILE_EXT as: .png from Config file
+2023-05-24 20:31:03,373 INFO  util.Util                      - Set Util.mSnapShotFileExt=.png
+2023-05-24 20:31:03,373 DEBUG pages.core.BasePage            - Just before call to getScreenshotAs
+2023-05-24 20:31:03,375 ERROR pages.core.BasePage            - Failed in getScreenshotAs with exception
+2023-05-24 20:31:03,375 TRACE util.Util                      - Start of getCompleteStackTraceInfo( Exception exceptionObj )
+2023-05-24 20:31:03,375 INFO  util.Util                      - stackTraceArray size is:22
+2023-05-24 20:31:03,376 ERROR pages.core.BasePage            - Exception Msg is:null
+Stack trace for the exception is:
+pages.core.BasePage.takeScreenshot(BasePage.java:110)
+elems.BaseElem.findElem(BaseElem.java:321)
+pages.core.GlobalNavigation.clickOnGlbNavCmd(GlobalNavigation.java:95)
+pages.core.GlobalNavigation.getSyslog(GlobalNavigation.java:646)
+stepdefs.core.StepDefinitions.ScenarioDTO(StepDefinitions.java:2166)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+cucumber.runtime.Utils$1.call(Utils.java:26)
+cucumber.runtime.Timeout.timeout(Timeout.java:16)
+cucumber.runtime.Utils.invoke(Utils.java:20)
+cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+cucumber.runtime.HookDefinitionMatch.runStep(HookDefinitionMatch.java:14)
+cucumber.runner.TestStep.executeStep(TestStep.java:55)
+cucumber.runner.TestStep.run(TestStep.java:42)
+cucumber.runner.TestCase.run(TestCase.java:53)
+cucumber.runner.Runner.runPickle(Runner.java:44)
+cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+cucumber.runtime.Runtime.run(Runtime.java:106)
+cucumber.api.cli.Main.run(Main.java:35)
+cucumber.api.cli.Main.main(Main.java:18)
+2023-05-24 20:31:03,376 DEBUG pages.core.BasePage            - Target Screenshot file:C:\Tc_Selenium_Automation\it-slms-selenium-auto\selenium_Logs\snapshots\2023-05-24\20230524_203103_376.png
+2023-05-24 20:31:03,382 ERROR pages.core.BasePage            - Failed in copying screenshot file with exception
+2023-05-24 20:31:03,382 ERROR elems.BaseElem                 - Failed in taking Screen Shot with Exceptionnull
+2023-05-24 20:31:03,382 TRACE util.Util                      - Start of getCompleteStackTraceInfo( Exception exceptionObj )
+2023-05-24 20:31:03,382 INFO  util.Util                      - stackTraceArray size is:22
+2023-05-24 20:31:03,382 ERROR elems.BaseElem                 - Exception Msg is:null
+Stack trace for the exception is:
+pages.core.BasePage.takeScreenshot(BasePage.java:132)
+elems.BaseElem.findElem(BaseElem.java:321)
+pages.core.GlobalNavigation.clickOnGlbNavCmd(GlobalNavigation.java:95)
+pages.core.GlobalNavigation.getSyslog(GlobalNavigation.java:646)
+stepdefs.core.StepDefinitions.ScenarioDTO(StepDefinitions.java:2166)
+sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+java.lang.reflect.Method.invoke(Unknown Source)
+cucumber.runtime.Utils$1.call(Utils.java:26)
+cucumber.runtime.Timeout.timeout(Timeout.java:16)
+cucumber.runtime.Utils.invoke(Utils.java:20)
+cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)
+cucumber.runtime.HookDefinitionMatch.runStep(HookDefinitionMatch.java:14)
+cucumber.runner.TestStep.executeStep(TestStep.java:55)
+cucumber.runner.TestStep.run(TestStep.java:42)
+cucumber.runner.TestCase.run(TestCase.java:53)
+cucumber.runner.Runner.runPickle(Runner.java:44)
+cucumber.runtime.Runtime.runFeature(Runtime.java:120)
+cucumber.runtime.Runtime.run(Runtime.java:106)
+cucumber.api.cli.Main.run(Main.java:35)
+cucumber.api.cli.Main.main(Main.java:18)
+2023-05-24 20:31:03,382 WARN  elems.BaseElem                 - Failed in Wait.until(presenceOfElementLocated) for web element with name = GlbNav_Cmd_Help
+, But will try again
+2023-05-24 20:31:03,382 ERROR elems.BaseElem                 - Failed in WebDriverWait.until presenceOfElementLocated for web element with name = GlbNav_Cmd_Help and locator obj = By.xpath: //aw-command[@ng-repeat="command in commandsList | filter:{visible:true} | orderBy: '':reverse | limitTo:commandLimit as visibleCommands"]//button[@aria-label='Help'] | //button[@title='Help'] with Exception
+2023-05-24 20:31:03,382 ERROR elems.BaseElem                 - 
+2023-05-24 20:31:03,382 ERROR pages.core.GlobalNavigation    - clickOnGlbNavCmd: failed to click on command: GlbNav_Cmd_Help@GlobalNavigation with exception:null
